@@ -9,7 +9,7 @@ WebServiceA is a web service designed to test Argo Deploymen.
 - Feature 3
 
 ## Installation
-To install WebServiceA, follow these steps:
+To install WebServiceB, follow these steps:
 
 1. Clone the repository:
     ```sh

@@ -9,12 +9,12 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: web-servivce-b
+      app: web-service-b
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: web-service-bn
+        app: web-service-b
     spec:
       containers:
       - image: 21701jake/web-service-b:latest

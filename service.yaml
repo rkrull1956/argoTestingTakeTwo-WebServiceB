@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: webservice-b-svc
+  name: web-service-b-svc
 spec:
   selector:
-    app: webservice-b
+    app: web-service-b
   ports:
     - protocol: TCP
       port: 7080

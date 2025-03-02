@@ -1,13 +1,13 @@
-package com.example.WebServiceA;
+package com.example.WebServiceB;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebServiceAApplication {
+public class WebServiceBApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebServiceAApplication.class, args);
+		SpringApplication.run(WebServiceBApplication.class, args);
 	}
 
 }

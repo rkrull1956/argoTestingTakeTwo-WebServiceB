@@ -1,7 +1,7 @@
-# WebServiceA
+# WebServiceB
 
 ## Overview
-WebServiceA is a web service designed to test Argo Deploymen.
+WebServiceB is a web service designed to test Argo Deploymen.
 
 ## Features
 - Feature 1
@@ -13,11 +13,11 @@ To install WebServiceB, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/WebServiceA.git
+    git clone https://github.com/yourusername/WebServiceB.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd WebServiceA
+    cd WebServiceB
     ```
 3. Install dependencies:
     ```sh

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: argo-test
+  name: argo-test
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: argo-test
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: argo-test
+    spec:
+      containers:
+      - image: 21701jake/argo-test:v1.0
+        name: argo-api

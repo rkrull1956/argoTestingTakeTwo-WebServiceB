@@ -9,11 +9,11 @@ spec:
   revisionHistoryLimit: 2
   selector:
     matchLabels:
-      app: web-service-b
+      app: webservice-b
   template:
     metadata:
       labels:
-        app:  web-service-b
+        app:  webservice-b
     spec:
       containers:
       - name: rollouts-demo
@@ -25,7 +25,7 @@ spec:
     blueGreen:
       # activeService specifies the service to update with the new template hash at time of promotion.
       # This field is mandatory for the blueGreen update strategy.
-      activeService: web-service-b
+      activeService: weservice-b
       # previewService specifies the service to update with the new template hash before promotion.
       # This allows the preview stack to be reachable without serving production traffic.
       # This field is optional.
